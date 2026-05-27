@@ -1,0 +1,6 @@
+*.lock
+target/
+.DS_Store
+*.sw*
+.vscode/
+dist/

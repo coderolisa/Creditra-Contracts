@@ -1,0 +1,9 @@
+[workspace]
+members = ["contracts/credit"]
+resolver = "2"
+
+[workspace.package]
+version = "1.0.0"
+authors = ["Drips Protocol"]
+edition = "2021"
+
