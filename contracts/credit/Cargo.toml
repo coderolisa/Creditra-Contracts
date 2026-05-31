@@ -1,5 +1,6 @@
 [package]
 name = "creditra-credit"
+<<<<<<< HEAD
 version.workspace = true
 authors.workspace = true
 edition.workspace = true
@@ -11,10 +12,23 @@ soroban-sdk = "20.5.0"
 [dev-dependencies]
 soroban-sdk = "20.5.0"
 
+=======
+version = "0.1.0"
+edition = "2021"
+description = "Creditra credit line Soroban contract"
+>>>>>>> 39a80aa (chore: add Soroban workspace and credit contract crate)
 
 [lib]
 crate-type = ["cdylib"]
 
+<<<<<<< HEAD
 [[test]]
 name = "upgrade"
 path = "tests/upgrade.rs"
+=======
+[dependencies]
+soroban-sdk = { workspace = true }
+
+[dev-dependencies]
+soroban-sdk = { workspace = true, features = ["testutils"] }
+>>>>>>> 39a80aa (chore: add Soroban workspace and credit contract crate)
